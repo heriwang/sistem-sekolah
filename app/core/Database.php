@@ -10,7 +10,7 @@ class Database
     {
         $this->connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME); 
 
-        if ($this->connection) {
+        if (!$this->connection) {
             die ("Koneksi database gagal: " . mysqli_connect_error());
         }
     }

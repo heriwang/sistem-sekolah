@@ -1,6 +1,6 @@
 <?php
-defined('DB_HOST', 'localhost');
-defined('DB_USER', 'root');
-defined('DB_PASSWORD', '');
-defined('DB_NAME', 'sistem_sekolah');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'sistem_sekolah');
 ?>
