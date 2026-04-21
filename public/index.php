@@ -13,6 +13,8 @@ $router->add(method: 'GET', uri: '/students/create', controller: 'StudentControl
 $router->add(method: 'GET', uri: '/students/{id}', controller: 'StudentController', function: 'show');
 $router->add(method: 'GET', uri: '/students/{id}/edit', controller: 'StudentController', function: 'edit');
 
+$router->add('POST', '/students', 'StudentController', 'store');
+
 $router->run();
 
 ?>

@@ -6,7 +6,7 @@
     </div>
     <!-- Card Header End -->
     <div class="bg-white shadow rounded-lg">
-        <form action="" class="p-4 grid grid-cols-2 gap-4">
+        <form action="/students" method="post" class="p-4 grid grid-cols-2 gap-4">
             <div class="space-y-2">
                 <label class="block font-bold" for="">Nama</label>
                 <input class="w-full border rounded-lg py=2 px=4" type="text" name="name" id="name"
@@ -18,13 +18,13 @@
                     placeholder="Masukkan NIS">
             </div>
             <div class="space-y-2">
-                <label class="block font-bold" for="kelas">Kelas</label>
-                <input class="w-full border rounded-lg py=2 px=4" type="text" name="kelas" id="kelas"
+                <label class="block font-bold" for="class">Kelas</label>
+                <input class="w-full border rounded-lg py=2 px=4" type="text" name="class" id="class"
                     placeholder="Masukkan Kelas">
             </div>
             <div class="space-y-2">
-                <label class="block font-bold" for="phone-number">Nomor Telepon</label>
-                <input class="w-full border rounded-lg py=2 px=4" type="text" name="phone-number" id="phone-number"
+                <label class="block font-bold" for="phone_number">Nomor Telepon</label>
+                <input class="w-full border rounded-lg py=2 px=4" type="text" name="phone_number" id="phone_number"
                     placeholder="Masukkan No Telepon">
             </div>
             <div class="flex justify-end gap-4 col-span-2">
